@@ -1,0 +1,179 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body{
+    background: url('images/travelworthy-backdrop.jpg') no-repeat;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+#page{
+    background-color: #403c3b;
+    margin: 0 auto 0 auto;
+    
+}
+h1{
+    background-image: url('images/logo.jpg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center 10px;
+    text-align: center;
+    height: 40px;
+    line-height: 75px;
+    margin: 30px auto 0 auto;
+    padding: 150px 10px 20px 10px;
+    color:#fff;
+    font-family: 'Futura', sans-serif;
+    text-shadow: 2px 2px 7px #111111;
+    font-size: 100%
+}
+
+h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    text-transform:uppercase;
+    font-size: 250%;
+    border-bottom: 1px solid #fff;
+    margin: 0 0 20px 0;
+
+}
+form{
+    padding: 0 60px 65px 60px;
+}
+label{
+    color: #fff;
+    display: block;
+    margin: 10px 0 10px 0;
+    font-size: 24px;
+}
+input[type="text"]{
+    background-color: #999;
+    color: #666;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    font-size: 24px;
+    width: 96%;
+    padding: 4px 5px;
+    border: 1px solid #999;
+    border-radius: 8px;
+}
+input[type = 'text']:focus {
+    border: 1px solid #fff;
+    background-color: #fff;
+    outline:none;
+}
+input[type = "submit"]{
+    background-color: #cb6868;
+    color: #f3dad1;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    float: right;
+    margin-top: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+input[type = "submit"]:hover {
+    background-color: #d75359;
+    color: #f3dad1;
+    cursor: pointer;
+    position:relative;
+    top: 1px;
+}
+#feedback1{
+    color: #fff;
+    background-image: url('images/warning.png');
+    background-repeat: no-repeat;
+    background-position: 2px 14px;
+    padding: 10px 0 0 22px;
+}
+#feedback1.warning{
+    background-image: url('images/warning.png');
+}
+#feedback1.tip{
+    background-image: url('images/tip.png');
+}
+
+#feedback2{
+    color: #fff;
+    background-image: url('images/warning.png');
+    background-repeat: no-repeat;
+    background-position: 2px 14px;
+    padding: 10px 0 0 22px; 
+}
+#feedback2.warning{
+    background-image: url('images/warning.png');
+}
+#feedback2.tip{
+    background-image: url('images/tip.png');
+}
+
+
+#feedback3{
+    color: #fff;
+    background-image: url('images/warning.png');
+    background-repeat: no-repeat;
+    background-position: 2px 14px;
+    padding: 10px 0 0 22px;
+}
+
+
+#feedback3.warning{
+    background-image: url('images/warning.png');
+}
+#feedback3.tip{
+    background-image: url('images/tip.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small screen - acts like the app would */
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: #403c3b;
+    }
+    #page {
+      max-width: 480px;
+    }
+  }
+  @media only screen and (min-width: 501px) and (max-width: 767px) {
+    #page {
+      max-width: 480px;
+      margin: 20px auto 20px auto;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    #page {
+      max-width: 480px;
+      margin: 20px auto 20px auto;
+    }
+  }
+  /* Larger screens act like a demo for the app */
+  @media only screen and (min-width: 960px) {
+    #page {
+      max-width: 480px;
+      margin: 20px auto 20px auto;
+    }
+  }
