@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\royceang\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\royceang\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\royceang\Desktop\ProjectAldehyde\workshop-timetable\NetCoreRESTTemplate" t="IncludeRecursive">
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Controllers" t="Include">
+        <e p="MemberController.cs" t="Include" />
+        <e p="NewController.cs" t="Include" />
+        <e p="StudentController.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="Member.cs" t="Include" />
+        <e p="MemberRequest.cs" t="Include" />
+        <e p="Student.cs" t="Include" />
+        <e p="StudentDataModel.cs" t="Include" />
+        <e p="StudentRequest.cs" t="Include" />
+      </e>
+      <e p="NetCoreRESTTemplate.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.1" t="Include">
+            <e p="NetCoreRESTTemplate.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Repository" t="Include">
+        <e p="IRepository.cs" t="Include" />
+        <e p="Repository.cs" t="Include" />
+        <e p="StudentRepository.cs" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="wwwroot" t="Include" />
+    </e>
+  </component>
+</project>
